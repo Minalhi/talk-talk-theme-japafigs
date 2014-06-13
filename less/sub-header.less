@@ -5,7 +5,7 @@
   
   
   border: solid 1px blue;
-  
+    
   .top-picture {
     overflow: hidden;
   }
@@ -17,13 +17,15 @@
   
   .forums-list {
     .main-container();
-    margin-top: -40px;
+    margin-top: -94px;
     position: relative;
     z-index: 1;
+   
 
     .forum {
       float: left;
       margin-left: 8px;
+   
 
       .forum-picture {
         margin-left: 6px;
@@ -31,14 +33,31 @@
         height: 113px;
         background-color: darken(red, 30%);
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+        @media (max-width: 500px) {
+          display: none;
+        }
       }
       .forum-desc {
         
         padding-left: 6px;
+        max-width: 170px;
+        a {
+          color: @text-color;
+          &:hover {
+            color: @text-color;
+          }
+        }
+            
         .forum-title {
+          font-size: @font-size-big;
+          font-color: @text-color;      
           margin-top: 4px;
         }
-        
+        .forum-children { 
+          font-size: @font-size-base;   
+          font-color: @text-color;
+         
+        }
       }
       
     }
@@ -46,6 +65,11 @@
   }
   
 }
+
+
+
+
+  
 
 .sub-header-home {
   
