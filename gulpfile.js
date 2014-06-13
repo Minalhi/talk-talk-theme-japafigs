@@ -27,7 +27,7 @@ gulp.task("watch", [], function() {
 
   console.log("LESS files watching starts.");
   
-  var livereloadAddr = 4000;//"0.0.0.0:4000";//"talktalk-122155.euw1.nitrousbox.com:4000";
+  var livereloadAddr = "0.0.0.0:4000";//4000;//"0.0.0.0:4000";//"talktalk-122155.euw1.nitrousbox.com:4000";
   var server = livereload(livereloadAddr);  
     console.log("LiveReload started on "+livereloadAddr+".");
   
