@@ -4,10 +4,10 @@
   "description": "tests d'intégration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "author": "Ngee",
-  "license": "ISC",
+  "license": "GPL v2",
   "dependencies": {
     "gulp": "^3.8.0",
     "gulp-less": "^1.2.3",
