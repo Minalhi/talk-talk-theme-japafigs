@@ -1,0 +1,16 @@
+{
+  "name": "home",
+  "version": "0.0.0",
+  "description": "tests d'intégration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ngee",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.8.0",
+    "gulp-less": "^1.2.3",
+    "gulp-livereload": "^2.1.0"
+  }
+}
