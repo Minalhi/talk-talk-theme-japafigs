@@ -1,0 +1,54 @@
+
+@import "./mixins";
+
+.sub-header {
+  
+  
+  border: solid 1px blue;
+  
+  .top-picture {
+    overflow: hidden;
+  }
+  
+  .forums-list, .forum-children {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .forums-list {
+    .main-container();
+    margin-top: -40px;
+    position: relative;
+    z-index: 1;
+
+    .forum {
+      float: left;
+      margin-left: 8px;
+
+      .forum-picture {
+        margin-left: 6px;
+        width: 170px;
+        height: 113px;
+        background-color: darken(red, 30%);
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+      }
+      .forum-desc {
+        
+        padding-left: 6px;
+        .forum-title {
+          margin-top: 4px;
+        }
+        
+      }
+      
+    }
+    
+  }
+  
+}
+
+.sub-header-home {
+  
+  border: solid 1px pink;
+  
+}

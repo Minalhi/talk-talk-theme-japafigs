@@ -1,7 +1,11 @@
+
+@import "./variables";
+
 @import "../bower_components/bootstrap/less/normalize";
 @import "../bower_components/bootstrap/less/mixins";
 @import "../bower_components/bootstrap/less/utilities";
-@import "./variables";
+@import "../bower_components/bootstrap/less/grid";
+
 @import "./helpers";
 
 html, body {
@@ -22,93 +26,21 @@ body {
 #site-container {
   
   border: solid 1px lime;
-  max-width: 1220px;
-  margin: 0px auto; 
+  //max-width: 1220px;
+  //margin: 0px auto; 
   background-color: white;
   min-height: 30em;
   
 }
 
-header {
-.clearfix();
-  border: solid 1px blue;  
-  h1 {
-    background-image: url("../img/common/header/logo.png") ;
-    background-repeat: no-repeat; 
-    text-indent: -9999px;
-    width: 150px;
-    height: 67px; 
-    border: solid red 1px;
-    margin: 0;
-    float: left;
-  }
-  nav {
-    float: left;
-    position: relative;
-    margin-top: 13px; 
-    margin-left: 15px;
-    
-    .nav-title {
-      height: 40px;
-      display: block;
-      font-size: 20px;
-      font-weight: bold;
-      cursor: pointer;
-      background: url("../img/common/header/arrow-down.png") right center no-repeat;
-      padding-right: 20px;
-      img {
-        vertical-align: top;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-      }
-      .menu-title {
-        display: inline-block;
-        margin-top: 7px;
-      }
-    }
-    
-    ul {
-      position: absolute;
-      top: 24px;
-      left: 18px;
-      z-index: 1;
-      border: solid 1px blue;
-      margin: 0;
-      list-style-type: none;
-      min-width: 6em;
-      padding: 0;
-      background-color: @body-bg;
-      display: none;
-    }//end ul
-    &:hover {
-      ul {
-        display: block;
-      }
-    }//end nav:hover
-    &.menu-with-picture {
-       ul {
-         left: 40px;
-       }
-    }
-  }//end nav
+@import "./header";
 
-}
-
-.sub-header {
-  
-  border: solid 1px blue;
-  
-}
-
-.sub-header-home {
-  
-  border: solid 1px pink;
-  
-}
+@import "./sub-header";
 
 #main-container {
+  .main-container();
   min-height: 20em;
+
   
 }
 

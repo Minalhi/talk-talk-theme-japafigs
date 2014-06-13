@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-
-<head>
-  <title>
-  Japafigs.com  
-  </title>
- <link rel="stylesheet" href="css/main.css"> 
-  
-</head>
-
-<body>
-  
-  <div id="site-container">
-  
-    <header>
+<header>
       <h1> Japafigs</h1>
       <nav class="main-menu">
         <span class="nav-title">
@@ -52,22 +38,3 @@
       </nav><!-- end .plugin-menu -->
       
     </header>
-
-    <div class="sub-header sub-header-home">
-    hello world
-  
-    </div>
-    
-    <div id="main-container">
-    
-    </div>
-    
-    <footer>
-      bololooskdfljsdljfmqsljkfmqlkjkmlfmlqdjqncmlkndfnmqlkknqlnml
-    </footer>
-    
-  </div>
-  <!-- LiveReload FTW  -->
-  <script src="http://talktalk-122155.euw1.nitrousbox.com:4000/livereload.js"></script>!
-
-</body>
