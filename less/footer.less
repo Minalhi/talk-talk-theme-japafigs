@@ -1,0 +1,66 @@
+@import "./variables";
+@import "../bower_components/bootstrap/less/mixins";
+
+footer {
+  .clearfix();
+  background-color: #31383e;
+  color: white;
+  font-size: @font-size-base;
+  .footer-firstline {
+    .clearfix();
+    border-bottom: solid 3px #b47321;
+    h1 {
+        width: 170px;
+        height: 40px; 
+        margin: 0;
+        float: left;
+      }
+
+      .footer-menu {
+        float: left;
+        position: relative;
+        margin-top: 10px; 
+        cursor: pointer;
+        .footer-title {
+          margin-left: 10px;
+          }
+
+       }
+       .footer-language {
+         margin-top: 10px; 
+         margin-right: 10px;
+         margin-left: 10px;
+         cursor: pointer; 
+         float: right;  
+         position: relative;
+        }
+  } 
+
+  .footer-secondline {
+    .clearfix();
+    margin-top: 10px; 
+    .footer-widget-left{
+      float: left;  
+      position: relative;
+      margin: 0;
+      margin-right: 10px;
+      max-width: 390px;
+      .footer-widget-followus {
+       list-style-type: none; 
+       position: static;   
+      }
+      
+    } 
+    .footer-widget-right {
+      float: right; 
+      position: relative;
+      margin-right: 10px;
+      font-size: @font-size-big;
+      font-weight: bold;
+      
+    }
+    
+  }  
+  
+} 
+  

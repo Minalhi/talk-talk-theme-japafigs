@@ -13,9 +13,7 @@
     
     </div><!-- end #main-container -->
     
-    <footer>
-      bololooskdfljsdljfmqsljkfmqlkjkmlfmlqdjqncmlkndfnmqlkknqlnml
-    </footer>
+ <?php include './includes/common/footer.php' ?>
     
   </div><!-- end #site-container -->
   
