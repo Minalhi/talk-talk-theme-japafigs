@@ -15,19 +15,22 @@ html, body {
 
 body {
   background-color: @body-bg;
-  background-image: url("../img/backgroundjapa.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url("../img/backgroundjapa.png") no-repeat center fixed;
+    -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
   color: @text-color;
 }
 
 
 #site-container {
   
-  border: solid 1px lime;
+  //border: solid 1px red;
   //max-width: 1220px;
   //margin: 0px auto; 
+  padding-left: 0;
+  padding-right: 0;
   background-color: white;
   min-height: 30em;
   
